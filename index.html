@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technology Lab Tasks</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f4f7;
+        }
+
+        header {
+            padding: 40px;
+            text-align: center;
+            background: #182848;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        .card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #182848;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .card a:hover {
+            background: #4b6cb7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            background: #182848;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Web Technology Lab</h1>
+        <p>Web Development Tasks</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Task 1</h2>
+            <p>Student Profile</p>
+            <a href="student-profile/">Open Task</a>
+        </div>
+
+        <div class="card">
+            <h2>Task 2</h2>
+            <p>University News Portal</p>
+            <a href="university-news/">Open Task</a>
+        </div>
+
+        <div class="card">
+            <h2>Task 3</h2>
+            <p>Student Dashboard</p>
+            <a href="student-dashboard/">Open Task</a>
+        </div>
+
+        <div class="card">
+            <h2>Task 4</h2>
+            <p>University Faculty</p>
+            <a href="university-faculty/">Open Task</a>
+        </div>
+
+        <div class="card">
+            <h2>Task 5</h2>
+            <p>Online Course Platform</p>
+            <a href="online-course/">Open Task</a>
+        </div>
+
+        <div class="card">
+            <h2>Task 6</h2>
+            <p>University Event Website</p>
+            <a href="university-event/">Open Task</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Web Technology Lab | 2026</p>
+    </footer>
+
+</body>
+</html>

@@ -1,1 +1,2 @@
 # Web-technology-lab-task
+python3 -m http.server 8080 & sleep 2; python3 -c "import webbrowser; urls=['student-profile','university-news','student-dashboard','university-faculty','online-course','university-event']; [webbrowser.open('http://localhost:8080/'+u+'/') for u in urls]"
